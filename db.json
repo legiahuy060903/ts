@@ -1,0 +1,522 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Nike"
+    },
+    {
+      "id": 2,
+      "name": "ADIDAS"
+    },
+    {
+      "id": 3,
+      "name": "JORDAN"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "AIR FORCE 1",
+      "image": [
+        "nk1.jpg",
+        "nk1.jpg",
+        "nk1.jpg"
+      ],
+      "categogy": 1,
+      "brand": "NIKE",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 2660000,
+        "41": 2660000,
+        "42": 2660000,
+        "43": 2660000,
+        "44": 2660000,
+        "45": 3000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 2,
+      "name": "NIKE PEGASUS 39 ",
+      "image": [
+        "nk2.jpeg",
+        "nk2.jpeg",
+        "nk2.jpeg"
+      ],
+      "categogy": 1,
+      "brand": "NIKE",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 3660000,
+        "41": 3660000,
+        "42": 3660000,
+        "43": 3660000,
+        "44": 3660000,
+        "45": 4000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 3,
+      "name": "NIKE AIR FORCE 1 VALENTINE",
+      "image": [
+        "nk3.jpeg",
+        "nk3.jpeg",
+        "nk3.jpeg"
+      ],
+      "categogy": 1,
+      "brand": "NIKE",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 3660000,
+        "41": 3660000,
+        "42": 3660000,
+        "43": 3660000,
+        "44": 3660000,
+        "45": 4000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 4,
+      "name": "AIR FORCE 1 PINK PAISLEY",
+      "image": [
+        "nk4.jpeg",
+        "nk4.jpeg",
+        "nk4.jpeg"
+      ],
+      "categogy": 1,
+      "brand": "NIKE",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 3660000,
+        "41": 3660000,
+        "42": 3660000,
+        "43": 3660000,
+        "44": 3660000,
+        "45": 4000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 5,
+      "name": "ADIDAS NMD R1 REFINED",
+      "image": [
+        "ad1.jpg",
+        "ad1.jpg",
+        "ad1.jpg"
+      ],
+      "categogy": 2,
+      "brand": "ADIDAS",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 3660000,
+        "41": 3660000,
+        "42": 3660000,
+        "43": 3660000,
+        "44": 3660000,
+        "45": 4000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 6,
+      "name": "DURAMO 10",
+      "image": [
+        "ad2.jpg",
+        "ad2.jpg",
+        "ad2.jpg"
+      ],
+      "categogy": 2,
+      "brand": "ADIDAS",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 3660000,
+        "41": 3660000,
+        "42": 3660000,
+        "43": 3660000,
+        "44": 3660000,
+        "45": 4000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 7,
+      "name": "SN1997 X MARIMEKKO",
+      "image": [
+        "ad3.jpg",
+        "ad3.jpg",
+        "ad3.jpg"
+      ],
+      "categogy": 2,
+      "brand": "ADIDAS",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 3660000,
+        "41": 3660000,
+        "42": 3660000,
+        "43": 3660000,
+        "44": 3660000,
+        "45": 4000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 8,
+      "name": "ADIDAS BREAKNET",
+      "image": [
+        "ad4.jpg",
+        "ad4.jpg",
+        "ad4.jpg"
+      ],
+      "categogy": 2,
+      "brand": "ADIDAS",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 3660000,
+        "41": 3660000,
+        "42": 3660000,
+        "43": 3660000,
+        "44": 3660000,
+        "45": 4000000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 9,
+      "name": "JORDAN 1 LOW SE",
+      "image": [
+        "jd1.jpg",
+        "jd1.jpg",
+        "jd1.jpg"
+      ],
+      "categogy": 3,
+      "brand": "JORDAN",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 5900000,
+        "41": 5900000,
+        "42": 5900000,
+        "43": 5900000,
+        "44": 5900000,
+        "45": 6500000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 10,
+      "name": "AIR JORDAN 1 MID SE",
+      "image": [
+        "jd2.jpeg",
+        "jd2.jpeg",
+        "jd2.jpeg"
+      ],
+      "categogy": 3,
+      "brand": "JORDAN",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 7900000,
+        "41": 7900000,
+        "42": 7900000,
+        "43": 7900000,
+        "44": 7900000,
+        "45": 8100000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 11,
+      "name": "AIR JORDAN 1 LOW SE CRAFT",
+      "image": [
+        "jd3.jpg",
+        "jd3.jpg",
+        "jd3.jpg"
+      ],
+      "categogy": 3,
+      "brand": "JORDAN",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 7900000,
+        "41": 7900000,
+        "42": 7900000,
+        "43": 7900000,
+        "44": 7900000,
+        "45": 8100000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "id": 12,
+      "name": "NIKE SB DUNK LOW",
+      "image": [
+        "jd4.jpeg",
+        "jd4.jpeg",
+        "jd4.jpeg"
+      ],
+      "categogy": 3,
+      "brand": "JORDAN",
+      "color": [
+        "Đen",
+        "Trắng"
+      ],
+      "price": {
+        "40": 7900000,
+        "41": 7900000,
+        "42": 7900000,
+        "43": 7900000,
+        "44": 7900000,
+        "45": 8100000
+      },
+      "view": 1000,
+      "quantity": 33
+    },
+    {
+      "name": "HUY LÊ",
+      "image": [
+        "14a.jpg",
+        "14b.jpg",
+        "51.jpg"
+      ],
+      "brand": "Nike",
+      "color": [
+        "Đen",
+        "Đỏ"
+      ],
+      "price": {
+        "40": 56756,
+        "41": 45675467,
+        "42": 4674567,
+        "43": 4567467,
+        "44": 45677467,
+        "45": 356365456
+      },
+      "quantity": "4536",
+      "id": 13
+    },
+    {
+      "name": "tyutyuryu",
+      "image": [
+        "anhcheanhphu.jpg"
+      ],
+      "brand": "Nike",
+      "color": [
+        "Đen",
+        "Vàng",
+        "Xanh"
+      ],
+      "price": {
+        "40": 45375,
+        "41": 75678,
+        "42": 756786,
+        "43": 57578,
+        "44": 86786786,
+        "45": 787
+      },
+      "quantity": 678,
+      "id": 14
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "idSp": 1,
+      "idUser": 1,
+      "cus_name": "Le Gia Huy",
+      "cus_address": "123 Sai Gon",
+      "cus_mail": "fdfdfdfdf",
+      "cus_phone": "0909090909",
+      "quantity": 4,
+      "total": 100000,
+      "status": "3",
+      "size": [],
+      "date": ""
+    },
+    {
+      "id": 2,
+      "idSp": 1,
+      "idUser": 1,
+      "cus_name": "Le Gia Huy",
+      "cus_address": "123 Sai Gon",
+      "cus_mail": "fdfdfdfdf",
+      "cus_phone": "0909090909",
+      "quantity": 4,
+      "total": 100000,
+      "status": "1",
+      "size": [],
+      "date": ""
+    },
+    {
+      "id": 3,
+      "idSp": 1,
+      "idUser": 1,
+      "cus_name": "Le Gia Huy",
+      "cus_address": "123 Sai Gon",
+      "cus_mail": "fdfdfdfdf",
+      "cus_phone": "0909090909",
+      "quantity": 4,
+      "total": 100000,
+      "status": "2",
+      "size": [],
+      "date": ""
+    },
+    {
+      "id": 4,
+      "idSp": 1,
+      "idUser": 1,
+      "cus_name": "Le Gia Huy",
+      "cus_address": "123 Sai Gon",
+      "cus_mail": "fdfdfdfdf",
+      "cus_phone": "0909090909",
+      "quantity": 4,
+      "total": 100000,
+      "status": "3",
+      "size": [],
+      "date": ""
+    },
+    {
+      "id": 5,
+      "idSp": 1,
+      "idUser": 1,
+      "cus_name": "Le Gia Huy",
+      "cus_address": "123 Sai Gon",
+      "cus_mail": "fdfdfdfdf",
+      "cus_phone": "0909090909",
+      "quantity": 4,
+      "total": 100000,
+      "status": "1",
+      "size": [],
+      "date": ""
+    },
+    {
+      "id": 6,
+      "idSp": 1,
+      "idUser": 1,
+      "cus_name": "Le Gia Huy",
+      "cus_address": "123 Sai Gon",
+      "cus_mail": "fdfdfdfdf",
+      "cus_phone": "0909090909",
+      "quantity": 4,
+      "total": 100000,
+      "status": "2",
+      "date": ""
+    }
+  ],
+  "binhluan": [
+    {
+      "id": 1,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Chào mừng đến với bình nguyên vô tận",
+      "show": 0
+    },
+    {
+      "id": 2,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Cuộc đời quá bất công nên cộng lông ko bap giờ thẳng",
+      "show": 0
+    },
+    {
+      "id": 3,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Thỏ ngọc không bao giờ trắng ",
+      "show": 0
+    },
+    {
+      "id": 4,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Chó mực không bao giờ đen",
+      "show": 0
+    },
+    {
+      "id": 5,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Người ngoài hành tinh",
+      "show": 0
+    },
+    {
+      "id": 6,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Sản phẩm đến từ tương lai",
+      "show": 0
+    },
+    {
+      "id": 7,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Sản phẩm có chất lượng cao",
+      "show": 0
+    },
+    {
+      "id": 18,
+      "idSp": 2,
+      "idUser": 2,
+      "content": "Sản phẩm kém chất lượng",
+      "show": 0
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Le Gia Huy",
+      "email": "legiahuy@gmail.com",
+      "pass": "123456",
+      "address": "dffee"
+    },
+    {
+      "id": 2,
+      "username": "Le Cong Tai",
+      "email": "vinacon@gmail.com",
+      "pass": "1234",
+      "address": "dffee"
+    }
+  ]
+}

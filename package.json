@@ -1,0 +1,16 @@
+{
+    "name": "asm_ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "json-server --watch db.json --port 3333",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "json-server": "^0.17.3",
+        "lodash": "^4.17.21"
+    }
+}

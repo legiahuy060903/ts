@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "ES2017",
+        "module": "ESNext",
+        "removeComments": true,
+        "rootDir": "./src",
+        "watch": true,
+        "experimentalDecorators": true
+    },
+    "exclude": ["css"]
+}
