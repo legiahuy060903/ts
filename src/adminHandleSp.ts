@@ -1,4 +1,6 @@
 import { status, getData, format, ICart, checkLogin } from '../dist/package.js';
+declare const bootstrap: any;
+import { createPopper } from '@popperjs/core';
 const input = document.getElementById('file-input');
 const checkedBoxes: NodeListOf<Element> = document.querySelectorAll('input[name=mausac]');
 const sizeAll: NodeListOf<Element> = document.querySelectorAll('input[name=price]');
@@ -179,7 +181,8 @@ const h = async () => {
     let product = new themSp();
     let arrImg = await product.handleImg().then(data => data);
     const btnSubmit = document.querySelector('.btnSubmit') as HTMLElement;
-    btnSubmit.addEventListener('click', async () => {
+    btnSubmit.addEventListener('click', async (e) => {
+        e.preventDefault()
         let name = product.handLeName();
         let brand = product.handleBrand();
         let arrColor = product.handleColor();
@@ -195,7 +198,7 @@ const h = async () => {
             "price": arrSize,
             "quantity": +qty,
         }
-        fetch("http://localhost:3333/product",
+        await fetch("http://localhost:3333/product",
             {
                 headers: {
                     'Accept': 'application/json',
@@ -204,9 +207,19 @@ const h = async () => {
                 method: "POST",
                 body: JSON.stringify(data)
             })
-            .then(function (res) { console.log(res) })
+            .then((res) => {
+                let liveToast = document.querySelector("#liveToast");
+                const toast = new bootstrap.Toast(liveToast, {
+                    delay: 5000,
+                    autohide: true
+                });
+                toast.show()
+            })
             .catch(function (res) { console.log(res) })
+
+
     });
+
 };
 h();
 

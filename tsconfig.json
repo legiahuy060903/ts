@@ -6,7 +6,9 @@
         "removeComments": true,
         "rootDir": "./src",
         "watch": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "moduleResolution": "nodeNext",
+        "types": ["bootstrap"]
     },
     "exclude": ["css"]
 }
